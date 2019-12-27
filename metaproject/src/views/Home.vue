@@ -1,12 +1,14 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-  </div>
+  <HeaderHome></HeaderHome>
 </template>
 
 <script>
+import HeaderHome from '@/components/HeaderHome.vue'
 
 export default {
-  name: 'home'
+  name: 'home',
+  components: {
+    HeaderHome
+  }
 }
 </script>
