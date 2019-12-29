@@ -122,7 +122,7 @@ nav {
     @include breakpoint('medium'){
         @include font(20px, $white, 400, 1);  
         margin-bottom: 0;
-        margin-left: 30px;
+        margin-left: 25px;
         display: inline-flex;
     }
     @include breakpoint('large'){
