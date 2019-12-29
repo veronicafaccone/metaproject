@@ -63,7 +63,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
   @import '../scss/01_utilities/mp.utilities.scss';
   @import '../scss/03_components/mp.navbar.scss';
