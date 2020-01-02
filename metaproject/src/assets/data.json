@@ -1,0 +1,12 @@
+{
+    "navbar": {
+        "titleLogo": "metaproject · unconventional didactic",
+        "link": {
+            "text": ["home", "2020", "2019", "2018", "about"],
+            "href": ["", "2020", "2019", "2018", "about"]
+        }
+    },
+    "header": {
+
+    }
+}

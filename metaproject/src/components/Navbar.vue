@@ -8,18 +8,15 @@
       </div>
       <div class="mp-navbar__overlay" :class="isOpened" >
         <div class="mp-navbar__link">
-        <router-link to="/">home</router-link>
-        <router-link to="/2020">2020</router-link>
-        <router-link to="/2019">2019</router-link>
-        <router-link to="/2018">2018</router-link>
-        <router-link to="/about">about</router-link>
-      </div>
+          <router-link v-for="(link, index) in links.text" :key="index" :to="'/' + links.href[index]">{{link}}</router-link>
+        </div>
       </div>
     </div>
   </nav>
 </template>
 
 <script>
+import data from '../assets/data.json'
 export default {
   name: 'Navbar',
   data () {
@@ -36,6 +33,9 @@ export default {
     })
   },
   computed: {
+    links () {
+      return data.navbar.link
+    },
     isOpened () {
       var classes = []
       if (this.hamburgerOpened) {
@@ -64,6 +64,6 @@ export default {
 </script>
 
 <style lang="scss">
-  @import '../scss/01_utilities/mp.utilities.scss';
+  @import '../scss/01_utilities/01_mp.utilities.scss';
   @import '../scss/03_components/mp.navbar.scss';
 </style>
