@@ -17,4 +17,5 @@ export default {
 
 <style lang="scss">
   @import './scss/02_base/mp.reset.scss';
+  @import './scss/main.scss';
 </style>

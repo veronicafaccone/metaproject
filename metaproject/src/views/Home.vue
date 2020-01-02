@@ -1,5 +1,10 @@
 <template>
-  <HeaderHome></HeaderHome>
+  <div class="home">
+    <HeaderHome></HeaderHome>
+    <main>
+      <section></section>
+    </main>
+  </div>
 </template>
 
 <script>

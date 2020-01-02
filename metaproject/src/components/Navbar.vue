@@ -1,14 +1,14 @@
 <template>
   <nav>
     <div class="mp-navbar__container">
-      <div class="mp-navbar__logo">metaproject · unconventional didactic</div>
+      <div class="mp-navbar__logo">{{navbar.titleLogo}}</div>
       <div class="mp-navbar__hamburger" :class="isOpened" @click="openHamburger()">
         <span></span>
         <span></span>
       </div>
       <div class="mp-navbar__overlay" :class="isOpened" >
         <div class="mp-navbar__link">
-          <router-link v-for="(link, index) in links.text" :key="index" :to="'/' + links.href[index]">{{link}}</router-link>
+          <router-link v-for="(link, index) in navbar.link.text" :key="index" :to="'/' + navbar.link.href[index]">{{link}}</router-link>
         </div>
       </div>
     </div>
@@ -33,8 +33,8 @@ export default {
     })
   },
   computed: {
-    links () {
-      return data.navbar.link
+    navbar () {
+      return data.navbar
     },
     isOpened () {
       var classes = []
