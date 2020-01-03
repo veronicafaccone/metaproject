@@ -3,7 +3,7 @@
     <HeaderHome :background="headerHome.background"></HeaderHome>
     <main>
       <section>
-        <IntroText :background="introText.background"></IntroText>
+        <IntroText :background="introText.background" :title-text="introText.title" :subtitle-text="introText.subtitle" :paragraphs-text="introText.paragraphs"></IntroText>
       </section>
     </main>
   </div>

@@ -14,15 +14,24 @@ nav {
     justify-content: space-between;
     align-items: center;
     &.light{
+        .mp-navbar__logo{
+            color: $white;
+        }
         @include breakpoint('medium'){
-            .mp-navbar__logo, .mp-navbar__link a{
+            .mp-navbar__link a{
                 color: $white;
             }
         }
     }
     &.dark{
+        .mp-navbar__logo{
+            color: $black;
+        }
+        .mp-navbar__logo.open{
+            color: $white;
+        }
         @include breakpoint('medium'){
-            .mp-navbar__logo, .mp-navbar__link a{
+            .mp-navbar__link a{
                 color: $black;
             }
         }
@@ -34,6 +43,7 @@ nav {
     z-index: 999;
     @include breakpoint('medium'){
         @include font(20px, false, 400, 1);
+        transition: .2s color ease-in-out;
     }
 }
 
@@ -135,9 +145,13 @@ nav {
     position: relative;
     @include breakpoint('medium'){
         @include font(20px, false, 400, 1);  
+        transition: .2s color ease-in-out;
         margin-bottom: 0;
         margin-left: 25px;
         display: inline-flex;
+        &:first-child{
+            margin: 0;
+        }
     }
     @include breakpoint('large'){
         margin-left: 50px;

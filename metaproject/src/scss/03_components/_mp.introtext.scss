@@ -1,0 +1,19 @@
+.mp-introtext__container{
+    display: table-cell;
+    vertical-align: middle;
+    color: $black;
+}
+.mp-introtext__header{
+    margin-bottom: 15px;
+    @include breakpoint('medium'){
+        margin-bottom: 30px;
+    }
+}
+.mp-introtext__body{
+    p{
+        margin-bottom: 10px;
+        @include breakpoint('medium'){
+            margin-bottom: 15px;
+        }
+    }
+}

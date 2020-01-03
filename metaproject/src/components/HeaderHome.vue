@@ -32,8 +32,8 @@ export default {
   },
   methods: {
     emitBgComponent () {
-      var elementPosition = this.$el.getBoundingClientRect().top
-      var windowHeight = -(window.innerHeight - 30)
+      var elementPosition = (this.$el.getBoundingClientRect().top) - 30
+      var windowHeight = -(window.innerHeight)
       if (elementPosition <= 0 && elementPosition >= windowHeight) {
         EventBus.$emit('i-check-bg', this.bgComponent)
       }

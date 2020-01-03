@@ -1,6 +1,16 @@
 <template>
-  <div>
-      <div></div>
+  <div class="mp-introtext__container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="mp-introtext__header">
+          <h2 v-html="this.titleText"></h2>
+          <h3 v-html="this.subtitleText"></h3>
+        </div>
+        <div class="mp-introtext__body">
+          <p v-for="(paragraph, index) in this.paragraphsText" :key="index" v-html="paragraph"></p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -17,6 +27,18 @@ export default {
     background: {
       type: String,
       required: true
+    },
+    titleText: {
+      type: String,
+      required: false
+    },
+    subtitleText: {
+      type: String,
+      required: false
+    },
+    paragraphsText: {
+      type: Array,
+      required: true
     }
   },
   mounted () {
@@ -28,8 +50,8 @@ export default {
   },
   methods: {
     emitBgComponent () {
-      var elementPosition = this.$el.getBoundingClientRect().top
-      var windowHeight = -(window.innerHeight - 30)
+      var elementPosition = this.$el.getBoundingClientRect().top - 30
+      var windowHeight = -(window.innerHeight)
       if (elementPosition <= 0 && elementPosition >= windowHeight) {
         EventBus.$emit('i-check-bg', this.bgComponent)
       }
@@ -47,5 +69,5 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
   @import '../scss/01_utilities/01_mp.utilities.scss';
-  @import '../scss/04_layout/mp.headerhome.scss';
+  @import '../scss/03_components/mp.introtext.scss';
 </style>

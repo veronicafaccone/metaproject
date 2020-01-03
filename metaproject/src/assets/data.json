@@ -10,6 +10,12 @@
         "background": "dark"
     },
     "introText": {
-        "background": "light"
+        "background": "light",
+        "title": "metaproject",
+        "subtitle": "didattica e innovazione",
+        "paragraphs": [
+            "<span>Il nostro scopo?</span> Favorire un dialogo educativo che sia tale:<br />un confronto di voci, una coreografia di menti, mai un monologo.",
+            "Dopo tutto, i migliori insegnanti sono quelli che ti mostrano dove guardare ma non ti dicono cosa vedere.<br /><span>Insegnare è imparare due volte.</span>"
+        ]
     }
 }
