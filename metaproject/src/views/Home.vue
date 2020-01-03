@@ -1,19 +1,31 @@
 <template>
   <div class="home">
-    <HeaderHome></HeaderHome>
+    <HeaderHome :background="headerHome.background"></HeaderHome>
     <main>
-      <section></section>
+      <section>
+        <IntroText :background="introText.background"></IntroText>
+      </section>
     </main>
   </div>
 </template>
 
 <script>
 import HeaderHome from '@/components/HeaderHome.vue'
-
+import IntroText from '@/components/IntroText.vue'
+import data from '../assets/data.json'
 export default {
   name: 'home',
   components: {
-    HeaderHome
+    HeaderHome,
+    IntroText
+  },
+  computed: {
+    headerHome () {
+      return data.headerHome
+    },
+    introText () {
+      return data.introText
+    }
   }
 }
 </script>

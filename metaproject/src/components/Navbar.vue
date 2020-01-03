@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div class="mp-navbar__container">
+    <div class="mp-navbar__container" :class="colorNav()">
       <div class="mp-navbar__logo">{{navbar.titleLogo}}</div>
       <div class="mp-navbar__hamburger" :class="isOpened" @click="openHamburger()">
         <span></span>
@@ -17,13 +17,22 @@
 
 <script>
 import data from '../assets/data.json'
+import { EventBus } from '../eventbus.js'
 export default {
   name: 'Navbar',
   data () {
     return {
       hamburgerOpened: false,
-      windowWidth: 0
+      windowWidth: 0,
+      currentBgComponent: ''
     }
+  },
+  created () {
+    this.$nextTick(function () {
+      window.addEventListener('scroll', this.handleScroll)
+
+      this.handleScroll()
+    })
   },
   mounted () {
     this.$nextTick(function () {
@@ -46,6 +55,26 @@ export default {
     }
   },
   methods: {
+    checkBackground () {
+      EventBus.$on('i-check-bg', bgComponent => {
+        this.currentBgComponent = bgComponent
+      })
+    },
+    colorNav () {
+      var classes = []
+      if (this.currentBgComponent === 'dark') {
+        classes = []
+        classes.push('light')
+      } else {
+        classes = []
+        classes.push('dark')
+      }
+      return classes
+    },
+    handleScroll (event) {
+      this.checkBackground()
+      this.colorNav()
+    },
     openHamburger () {
       this.hamburgerOpened = !this.hamburgerOpened
     },
@@ -59,11 +88,12 @@ export default {
   },
   beforeDestroy () {
     window.removeEventListener('resize', this.getWindowWidth)
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
 </script>
 
 <style lang="scss">
   @import '../scss/01_utilities/01_mp.utilities.scss';
-  @import '../scss/03_components/mp.navbar.scss';
+  @import '../scss/04_layout/mp.navbar.scss';
 </style>

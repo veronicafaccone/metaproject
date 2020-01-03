@@ -6,7 +6,10 @@
             "href": ["", "2020", "2019", "2018", "about"]
         }
     },
-    "header": {
-
+    "headerHome": {
+        "background": "dark"
+    },
+    "introText": {
+        "background": "light"
     }
 }

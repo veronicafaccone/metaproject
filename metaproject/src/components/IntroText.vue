@@ -1,17 +1,13 @@
 <template>
-  <header class="mp-headerhome__bg">
-    <IconMouseScroll></IconMouseScroll>
-  </header>
+  <div>
+      <div></div>
+  </div>
 </template>
 
 <script>
 import { EventBus } from '../eventbus.js'
-import IconMouseScroll from './IconMouseScroll.vue'
 export default {
-  name: 'HeaderHome',
-  components: {
-    IconMouseScroll
-  },
+  name: 'IntroText',
   data () {
     return {
       bgComponent: this.background

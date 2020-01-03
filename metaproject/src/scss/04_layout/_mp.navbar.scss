@@ -13,13 +13,27 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    &.light{
+        @include breakpoint('medium'){
+            .mp-navbar__logo, .mp-navbar__link a{
+                color: $white;
+            }
+        }
+    }
+    &.dark{
+        @include breakpoint('medium'){
+            .mp-navbar__logo, .mp-navbar__link a{
+                color: $black;
+            }
+        }
+    }
 }
 
 .mp-navbar__logo{
     @include font(15px, $white, 400, 1);
     z-index: 999;
     @include breakpoint('medium'){
-        @include font(20px, $white, 400, 1);
+        @include font(20px, false, 400, 1);
     }
 }
 
@@ -120,7 +134,7 @@ nav {
     margin-bottom: 30px;
     position: relative;
     @include breakpoint('medium'){
-        @include font(20px, $white, 400, 1);  
+        @include font(20px, false, 400, 1);  
         margin-bottom: 0;
         margin-left: 25px;
         display: inline-flex;
