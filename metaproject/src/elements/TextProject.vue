@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import ButtonCta from './ButtonCta.vue'
+import ButtonCta from '@/elements/ButtonCta.vue'
 export default {
   name: 'IntroText',
   components: {

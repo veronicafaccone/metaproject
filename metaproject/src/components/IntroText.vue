@@ -69,5 +69,5 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
   @import '../scss/01_utilities/01_mp.utilities.scss';
-  @import '../scss/03_components/mp.introtext.scss';
+  @import '../scss/04_layout/mp.introtext.scss';
 </style>

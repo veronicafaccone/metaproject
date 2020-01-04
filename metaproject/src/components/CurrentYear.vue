@@ -8,7 +8,7 @@
 
 <script>
 import { EventBus } from '../eventbus.js'
-import TextProject from './TextProject.vue'
+import TextProject from '@/elements/TextProject.vue'
 export default {
   name: 'CurrentYear',
   components: {
@@ -69,5 +69,5 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
   @import '../scss/01_utilities/01_mp.utilities.scss';
-  @import '../scss/03_components/mp.currentyear.scss';
+  @import '../scss/04_layout/mp.currentyear.scss';
 </style>

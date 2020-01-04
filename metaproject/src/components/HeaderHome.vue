@@ -6,7 +6,7 @@
 
 <script>
 import { EventBus } from '../eventbus.js'
-import IconMouseScroll from './IconMouseScroll.vue'
+import IconMouseScroll from '@/elements/IconMouseScroll.vue'
 export default {
   name: 'HeaderHome',
   components: {
