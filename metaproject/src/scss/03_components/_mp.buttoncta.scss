@@ -1,0 +1,32 @@
+.mp-buttoncta{
+    display: flex;
+    height: 50px;
+    vertical-align: middle;
+    justify-content: left;
+    align-items: center;
+    &:hover{
+        .mp-buttoncta__line{
+            width: 0;
+            margin: 5px;
+            @include breakpoint('medium'){
+                margin: 9px 5px;
+            }
+        }
+    }
+}
+.mp-buttoncta__text{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.mp-buttoncta__line{
+    margin: 5px 10px;
+    background-color: $red;
+    width: 70px;
+    border-radius: 5px;
+    height: 2px;
+    transition: .5s all ease-in-out;
+    @include breakpoint('medium'){
+        width: 100px;
+        margin: 9px 10px;
+    }
+}

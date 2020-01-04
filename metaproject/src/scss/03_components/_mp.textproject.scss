@@ -1,0 +1,33 @@
+.mp-textproject{
+    display: table-cell;
+    vertical-align: middle;
+}
+.mp-textproject__header, .mp-textproject__body{
+    padding: 0 20px;
+    @include breakpoint('medium'){
+        padding: 0 30px;
+    }
+}
+.mp-textproject__header{
+    margin-bottom: 15px;
+    @include breakpoint('medium'){
+        margin-bottom: 50px;
+    }
+    p{
+        margin-bottom: 5px;
+        @include breakpoint('medium'){
+            margin-bottom: 10px;
+        }
+    }
+}
+.mp-textproject__body{
+    p{
+        margin-bottom: 10px;
+        @include breakpoint('medium'){
+            margin-bottom: 15px;
+        }
+    }
+    .mp-buttoncta__text{
+        margin-bottom: 0;
+    }
+}

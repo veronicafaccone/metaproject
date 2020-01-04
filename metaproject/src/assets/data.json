@@ -17,5 +17,19 @@
             "<span>Il nostro scopo?</span> Favorire un dialogo educativo che sia tale:<br />un confronto di voci, una coreografia di menti, mai un monologo.",
             "Dopo tutto, i migliori insegnanti sono quelli che ti mostrano dove guardare ma non ti dicono cosa vedere.<br /><span>Insegnare è imparare due volte.</span>"
         ]
+    },
+    "currentYear": {
+        "background": "dark",
+        "year": "coming soon",
+        "title": "make lambrate great again",
+        "paragraphs": [
+            "Si va narrando che Lambrate stia rinascendo dalle sue ceneri.",
+            "Nelle vie del piccolo borgo si raccontano leggende di un condottiero errante, di un ramingo del nord, di un personaggio in cerca di identità che si è messo in gioco e che sta provando a illuminare un quartiere in cerca di ossigeno. Mohole. Un nome che sentiremo spesso nominare nei prossimi anni. Un secondo al fronte. Un uomo in prima linea. Una garanzia. In una parola: Coraggio!"
+        ],
+        "cta": {
+            "link": "2020",
+            "before": "vai",
+            "after": "al progetto"
+        }
     }
 }

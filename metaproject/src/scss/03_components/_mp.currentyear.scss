@@ -1,0 +1,23 @@
+.mp-currentyear__bg{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/lambrate.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    position: relative;
+    @include breakpoint('medium'){
+        background-position: center;
+    }
+}
+.mp-currentyear__text{
+    background: rgba(0,0,0,.85);
+    color: $white;
+    display: table;
+    height: 50vh;
+    padding: 75px 0 20px 0;
+    @include breakpoint('medium'){
+        height: 100vh;
+        padding: 0;
+    }
+}
