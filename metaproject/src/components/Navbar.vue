@@ -7,7 +7,7 @@
         <span></span>
       </div>
       <div class="mp-navbar__overlay" :class="isOpened" >
-        <div class="mp-navbar__link">
+        <div class="mp-navbar__link" @click="openHamburger()">
           <router-link v-for="(link, index) in navbar.link.text" :key="index" :to="'/' + navbar.link.href[index]">{{link}}</router-link>
         </div>
       </div>
