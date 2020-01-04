@@ -1,6 +1,6 @@
 <template>
   <div class="mp-currentyear__bg">
-    <div class="mp-currentyear__text col-xs-12 col-sm-6">
+    <div class="mp-currentyear__text col-xs-12 col-md-6">
       <TextProject :year-text="this.yearText" :title-text="this.titleText" :paragraphs-text="this.paragraphsText" :cta="this.cta"></TextProject>
     </div>
   </div>
