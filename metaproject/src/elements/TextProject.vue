@@ -6,8 +6,8 @@
     </div>
     <div class="mp-textproject__body">
       <p v-for="(paragraph, index) in this.paragraphsText" :key="index" v-html="paragraph"></p>
-      <ButtonCta :cta="this.cta"></ButtonCta>
     </div>
+    <ButtonCta :cta="this.cta"></ButtonCta>
   </div>
 </template>
 

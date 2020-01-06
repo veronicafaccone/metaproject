@@ -8,6 +8,7 @@
       <section>
         <CurrentYear :background="currentYear.background" :year-text="currentYear.year" :title-text="currentYear.title" :paragraphs-text="currentYear.paragraphs" :cta="currentYear.cta"></CurrentYear>
       </section>
+      <section></section>
     </main>
   </div>
 </template>

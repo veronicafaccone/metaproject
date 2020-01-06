@@ -6,6 +6,8 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     &:before{
         content: '';
         position: absolute;

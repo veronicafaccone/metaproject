@@ -1,8 +1,6 @@
 .mp-textproject{
     display: table-cell;
     vertical-align: middle;
-}
-.mp-textproject__header, .mp-textproject__body{
     padding: 0 20px;
     @include breakpoint('medium'){
         padding: 0 30px;
