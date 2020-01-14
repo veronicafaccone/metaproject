@@ -33,7 +33,7 @@ export default {
       required: false
     },
     paragraphsText: {
-      type: Array,
+      type: String,
       required: true
     },
     cta: {

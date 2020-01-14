@@ -22,13 +22,47 @@
         "background": "dark",
         "year": "coming soon",
         "title": "make lambrate great again",
-        "paragraphs": [
-            "Si va narrando che Lambrate stia rinascendo dalle sue ceneri."
-        ],
+        "paragraphs": "Si va narrando che Lambrate stia rinascendo dalle sue ceneri.",
         "cta": {
             "link": "2020",
             "before": "vai",
             "after": "al progetto"
         }
+    },
+    "slider": {
+        "background": "light",
+        "slides": [
+            {
+                "year": "2019",
+                "title": "Type & Wine",
+                "paragraphs": "Creare un dialogo tra tipografia, design e progettazione tipografica per la cultura del vino in un viaggio ricercato lungo il suggestivo paesaggio e l'atmosfera della Franciacorta verso altri importanti centri.",
+                "cta": {
+                    "link": "2019",
+                    "before": "vai",
+                    "after": "al progetto"
+                }
+            },
+            {
+                "year": "2018",
+                "title": "Andrea in the retail next world",
+                "paragraphs": "Riscopriamo il piacere di toccare ciò che stiamo comprando, prima di acquistarlo.",
+                "cta": {
+                    "link": "2018",
+                    "before": "vai",
+                    "after": "al progetto"
+                }
+            },
+            {
+                "year": "2017",
+                "title": "Mohole wild factory",
+                "paragraphs": "I Wild Workers, artisti-operai nella fabbrica delle idee, hanno aperto le porte a chiunque riesca a trovare una storia in qualsiasi oggetto.",
+                "cta": {
+                    "link": "2017",
+                    "before": "vai",
+                    "after": "al progetto"
+                }
+            }
+            
+        ]
     }
 }

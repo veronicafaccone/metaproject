@@ -5,7 +5,7 @@
       <h2 v-html="this.titleText"></h2>
     </div>
     <div class="mp-textproject__body">
-      <p v-for="(paragraph, index) in this.paragraphsText" :key="index" v-html="paragraph"></p>
+      <p v-html="this.paragraphsText"></p>
     </div>
     <ButtonCta :cta="this.cta"></ButtonCta>
   </div>
@@ -28,7 +28,7 @@ export default {
       required: false
     },
     paragraphsText: {
-      type: Array,
+      type: String,
       required: true
     },
     cta: {

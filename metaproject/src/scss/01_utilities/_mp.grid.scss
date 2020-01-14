@@ -35,8 +35,6 @@ $half-gutter-width: $flexboxgrid-gutter-width * .5;
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-right: $flexboxgrid-outer-margin;
-  padding-left: $flexboxgrid-outer-margin;
 }
 
 .row {
@@ -67,9 +65,6 @@ $half-gutter-width: $flexboxgrid-gutter-width * .5;
   // we leave @include flex-basis(auto) out of common because
   // in some spots we need it and some we dont
   // more why here: https://github.com/kristoferjoseph/flexboxgrid/issues/126
-
-  padding-right: $half-gutter-width;
-  padding-left: $half-gutter-width;
 }
 
 $name: xs;

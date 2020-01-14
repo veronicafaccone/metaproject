@@ -8,7 +8,9 @@
       <section>
         <CurrentYear :background="currentYear.background" :year-text="currentYear.year" :title-text="currentYear.title" :paragraphs-text="currentYear.paragraphs" :cta="currentYear.cta"></CurrentYear>
       </section>
-      <section></section>
+      <section>
+        <Slider :background="slider.background" :slides="slider.slides"></Slider>
+      </section>
     </main>
   </div>
 </template>
@@ -17,13 +19,15 @@
 import HeaderHome from '@/components/HeaderHome.vue'
 import IntroText from '@/components/IntroText.vue'
 import CurrentYear from '@/components/CurrentYear.vue'
+import Slider from '@/components/Slider.vue'
 import data from '../assets/data.json'
 export default {
   name: 'home',
   components: {
     HeaderHome,
     IntroText,
-    CurrentYear
+    CurrentYear,
+    Slider
   },
   computed: {
     headerHome () {
@@ -34,6 +38,9 @@ export default {
     },
     currentYear () {
       return data.currentYear
+    },
+    slider () {
+      return data.slider
     }
   }
 }
