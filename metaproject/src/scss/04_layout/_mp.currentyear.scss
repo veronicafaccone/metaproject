@@ -1,6 +1,6 @@
 .mp-currentyear__bg{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-image: url('../assets/lambrate.jpg');
     background-repeat: no-repeat;
     background-position: -150px center;
@@ -13,7 +13,8 @@
 .mp-currentyear__text{
     background: rgba(0,0,0,.85);
     color: $white;
-    display: table;
+    display: flex;
+    align-items: center;
     height: 50vh;
     width: 100%;
     padding: 75px 0 20px 0;

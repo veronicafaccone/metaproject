@@ -1,14 +1,9 @@
 main{
     section{
         height: 100vh;
-        width: calc(100vw - 40px);
+        width: 100vw;
         margin: auto;
-        display: table;
-        @include breakpoint('medium'){
-            width: calc(100vw - 60px);
-        }
-        @include breakpoint('medium'){
-            width: calc(100vw - 240px);
-        }
+        display: flex;
+        align-items: center;
     }
 }

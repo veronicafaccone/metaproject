@@ -1,11 +1,13 @@
 <template>
-  <div class="mp-introtext__container">
-    <div class="mp-introtext__header">
-      <h2 v-html="this.titleText"></h2>
-      <h3 v-html="this.subtitleText"></h3>
-    </div>
-    <div class="mp-introtext__body">
-      <p v-for="(paragraph, index) in this.paragraphsText" :key="index" v-html="paragraph"></p>
+  <div class="mp-introtext">
+    <div class="mp-introtext__container">
+      <div class="mp-introtext__header">
+        <h2 v-html="this.titleText"></h2>
+        <h3 v-html="this.subtitleText"></h3>
+      </div>
+      <div class="mp-introtext__body">
+        <p v-for="(paragraph, index) in this.paragraphsText" :key="index" v-html="paragraph"></p>
+      </div>
     </div>
   </div>
 </template>

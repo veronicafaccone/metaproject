@@ -11,6 +11,9 @@
       <section>
         <Slider :background="slider.background" :slides="slider.slides"></Slider>
       </section>
+      <section>
+        <Footer :background="footer.background" :title-text="footer.title" :subtitle-text="footer.subtitle"></Footer>
+      </section>
     </main>
   </div>
 </template>
@@ -20,6 +23,7 @@ import HeaderHome from '@/components/HeaderHome.vue'
 import IntroText from '@/components/IntroText.vue'
 import CurrentYear from '@/components/CurrentYear.vue'
 import Slider from '@/components/Slider.vue'
+import Footer from '@/components/Footer.vue'
 import data from '../assets/data.json'
 export default {
   name: 'home',
@@ -27,7 +31,8 @@ export default {
     HeaderHome,
     IntroText,
     CurrentYear,
-    Slider
+    Slider,
+    Footer
   },
   computed: {
     headerHome () {
@@ -41,6 +46,9 @@ export default {
     },
     slider () {
       return data.slider
+    },
+    footer () {
+      return data.footer
     }
   }
 }
