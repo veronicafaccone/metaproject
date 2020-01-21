@@ -64,5 +64,27 @@
             }
             
         ]
+    },
+    "footer": {
+        "background": "dark",
+        "title": "Let's make something together",
+        "subtitle": "Start by saying hi 👋",
+        "contact": {
+            "title": "contact",
+            "items": [
+                {
+                    "name": "Camillo Frigeni",
+                    "position": "Scientific Director",
+                    "email": "camillo.frigeni@mohole.it",
+                    "number": "+39 339 87 07 375"
+                },
+                {
+                    "name": "Matteo Ducci",
+                    "position": "Technical Director",
+                    "email": "mat@siphlab.com"
+                }
+            ]
+        },
+        "copyright": "☺︎ Cookie Policy - Privacy Policy/// © 2020 Scuola Mohole via ventura 5, milano (MI), Italia CAP 20134 P.IVA 05649200960"
     }
 }

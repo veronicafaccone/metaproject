@@ -12,7 +12,7 @@
         <Slider :background="slider.background" :slides="slider.slides"></Slider>
       </section>
       <section>
-        <Footer :background="footer.background" :title-text="footer.title" :subtitle-text="footer.subtitle"></Footer>
+        <Footer :background="footer.background" :title-text="footer.title" :subtitle-text="footer.subtitle" :contact="footer.contact" :copyright="footer.copyright"></Footer>
       </section>
     </main>
   </div>
