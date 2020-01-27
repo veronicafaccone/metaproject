@@ -2,68 +2,102 @@
     "navbar": {
         "titleLogo": "metaproject · unconventional didactic",
         "link": {
-            "text": ["home", "2020", "2019", "2018", "about"],
-            "href": ["", "2020", "2019", "2018", "about"]
+            "text": ["home", "2020", "2019", "2018", "2017", "about"],
+            "href": ["", "2020", "2019", "2018", "2017", "about"]
         }
     },
-    "headerHome": {
-        "background": "dark"
-    },
-    "introText": {
-        "background": "light",
-        "title": "metaproject",
-        "subtitle": "didattica e innovazione",
-        "paragraphs": [
-            "<span>Il nostro scopo?</span> Favorire un dialogo educativo che sia tale:<br />un confronto di voci, una coreografia di menti, mai un monologo.",
-            "Dopo tutto, i migliori insegnanti sono quelli che ti mostrano dove guardare ma non ti dicono cosa vedere.<br /><span>Insegnare è imparare due volte.</span>"
-        ]
-    },
-    "currentYear": {
-        "background": "dark",
-        "year": "coming soon",
-        "title": "make lambrate great again",
-        "paragraphs": "Si va narrando che Lambrate stia rinascendo dalle sue ceneri.",
-        "cta": {
-            "link": "2020",
-            "before": "vai",
-            "after": "al progetto"
-        }
-    },
-    "slider": {
-        "background": "light",
-        "slides": [
-            {
-                "year": "2019",
-                "title": "Type & Wine",
-                "paragraphs": "Creare un dialogo tra tipografia, design e progettazione tipografica per la cultura del vino in un viaggio ricercato lungo il suggestivo paesaggio e l'atmosfera della Franciacorta verso altri importanti centri.",
-                "cta": {
-                    "link": "2019",
-                    "before": "vai",
-                    "after": "al progetto"
-                }
-            },
-            {
-                "year": "2018",
-                "title": "Andrea in the retail next world",
-                "paragraphs": "Riscopriamo il piacere di toccare ciò che stiamo comprando, prima di acquistarlo.",
-                "cta": {
-                    "link": "2018",
-                    "before": "vai",
-                    "after": "al progetto"
-                }
-            },
-            {
-                "year": "2017",
-                "title": "Mohole wild factory",
-                "paragraphs": "I Wild Workers, artisti-operai nella fabbrica delle idee, hanno aperto le porte a chiunque riesca a trovare una storia in qualsiasi oggetto.",
-                "cta": {
-                    "link": "2017",
-                    "before": "vai",
-                    "after": "al progetto"
-                }
+    "home": {
+        "header": {
+            "background": "dark"
+        },
+        "introText": {
+            "background": "light",
+            "title": "metaproject",
+            "subtitle": "didattica e innovazione",
+            "paragraphs": [
+                "<span>Il nostro scopo?</span> Favorire un dialogo educativo che sia tale:<br />un confronto di voci, una coreografia di menti, mai un monologo.",
+                "Dopo tutto, i migliori insegnanti sono quelli che ti mostrano dove guardare ma non ti dicono cosa vedere.<br /><span>Insegnare è imparare due volte.</span>"
+            ]
+        },
+        "currentYear": {
+            "background": "dark",
+            "year": "coming soon",
+            "title": "make lambrate great again",
+            "paragraphs": "Si va narrando che Lambrate stia rinascendo dalle sue ceneri.",
+            "cta": {
+                "link": "2020",
+                "before": "vai",
+                "after": "al progetto"
             }
-            
-        ]
+        },
+        "slider": {
+            "background": "light",
+            "slides": [
+                {
+                    "year": "2019",
+                    "title": "Type & Wine",
+                    "paragraphs": "Creare un dialogo tra tipografia, design e progettazione tipografica per la cultura del vino in un viaggio ricercato lungo il suggestivo paesaggio e l'atmosfera della Franciacorta verso altri importanti centri.",
+                    "cta": {
+                        "link": "2019",
+                        "before": "vai",
+                        "after": "al progetto"
+                    }
+                },
+                {
+                    "year": "2018",
+                    "title": "Andrea in the retail next world",
+                    "paragraphs": "Riscopriamo il piacere di toccare ciò che stiamo comprando, prima di acquistarlo.",
+                    "cta": {
+                        "link": "2018",
+                        "before": "vai",
+                        "after": "al progetto"
+                    }
+                },
+                {
+                    "year": "2017",
+                    "title": "Mohole wild factory",
+                    "paragraphs": "I Wild Workers, artisti-operai nella fabbrica delle idee, hanno aperto le porte a chiunque riesca a trovare una storia in qualsiasi oggetto.",
+                    "cta": {
+                        "link": "2017",
+                        "before": "vai",
+                        "after": "al progetto"
+                    }
+                }
+                
+            ]
+        }
+    },
+    "anno2020": {
+        "header": {
+            "background": "dark",
+            "year": "coming soon",
+            "title": "make lambrate great again",
+            "nameImg": "anno2020"
+        }
+    },
+    "anno2019": {
+        "header": {
+            "background": "dark",
+            "year": "2019",
+            "title": "Type & Wine",
+            "nameImg": "anno2019"
+        }
+    },
+    "anno2018": {
+        "header": {
+            "background": "dark",
+            "year": "2018",
+            "title": "andrea in the retail next world",
+            "nameImg": "anno2018"
+        }
+    },
+    "anno2017": {
+        "header": {
+            "background": "dark",
+            "year": "2018",
+            "title": "andrea in the retail next world",
+            "nameImg": "anno2017"
+        }
     },
     "footer": {
         "background": "dark",

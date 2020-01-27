@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HeaderHome :background="headerHome.background"></HeaderHome>
+    <HeaderHome :background="header.background"></HeaderHome>
     <main>
       <section>
         <IntroText :background="introText.background" :title-text="introText.title" :subtitle-text="introText.subtitle" :paragraphs-text="introText.paragraphs"></IntroText>
@@ -35,17 +35,17 @@ export default {
     Footer
   },
   computed: {
-    headerHome () {
-      return data.headerHome
+    header () {
+      return data.home.header
     },
     introText () {
-      return data.introText
+      return data.home.introText
     },
     currentYear () {
-      return data.currentYear
+      return data.home.currentYear
     },
     slider () {
-      return data.slider
+      return data.home.slider
     },
     footer () {
       return data.footer

@@ -11,8 +11,7 @@ export default {
   name: 'ButtonCta',
   props: {
     cta: {
-      type: Object,
-      required: true
+      type: Object
     }
   }
 }

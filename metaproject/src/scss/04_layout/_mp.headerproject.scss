@@ -1,0 +1,38 @@
+.mp-headerproject{
+    height: 100vh;
+}
+.mp-headerproject__colored-band{
+    height: 70vh;
+    width: 100vw;
+    background: $verdone;
+}
+.mp-headerproject__wrapper{
+    height: 100%;
+    color: $white;
+}
+.mp-headerproject__text{
+    align-self: flex-end;
+}
+.mp-headerproject__img-wrapper{
+    align-self: flex-end;
+    margin-bottom: -25vh;
+}
+.mp-headerproject__img{
+    height: 50vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &-anno2020{
+        background-image: url('../assets/lambrate.jpg');
+    }
+    &-anno2019{
+        background-image: url('../assets/slider2019.jpeg');
+    }
+    &-anno2018{
+        background-image: url('../assets/slider2018.jpg');
+    }
+    &-anno2017{
+        background-image: url('../assets/slider2017.jpg');
+    }
+}

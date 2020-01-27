@@ -4,10 +4,10 @@
       <p><span v-html="this.yearText"></span></p>
       <h2 v-html="this.titleText"></h2>
     </div>
-    <div class="mp-textproject__body">
+    <div v-if="this.paragraphsText !== ''" class="mp-textproject__body">
       <p v-html="this.paragraphsText"></p>
     </div>
-    <ButtonCta :cta="this.cta"></ButtonCta>
+    <ButtonCta v-if="this.cta !== ''" :cta="this.cta"></ButtonCta>
   </div>
 </template>
 
@@ -21,19 +21,18 @@ export default {
   props: {
     yearText: {
       type: String,
-      required: false
+      required: true
     },
     titleText: {
       type: String,
-      required: false
+      required: true
     },
     paragraphsText: {
       type: String,
-      required: true
+      required: false
     },
     cta: {
-      type: Object,
-      required: true
+      type: Object
     }
   }
 }
