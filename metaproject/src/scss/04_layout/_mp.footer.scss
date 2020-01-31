@@ -9,9 +9,9 @@
     align-items: center;
     padding: 0 20px;
     @include breakpoint('medium'){
-        padding: 0 30px;
+        padding: 0 60px;
     }
-    @include breakpoint('large'){
+    @include breakpoint('xlarge'){
         padding: 0 120px;
     }
 }
