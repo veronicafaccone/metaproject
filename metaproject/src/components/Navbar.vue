@@ -1,7 +1,8 @@
 <template>
   <nav>
     <div class="mp-navbar__container" :class="colorNav()">
-      <div class="mp-navbar__logo" :class="isOpened">{{navbar.titleLogo}}</div>
+      <div class="mp-navbar__logo">{{navbar.titleLogo}}</div>
+      <div class="mp-navbar__logo--mobile" :class="isOpened">{{navbar.titleLogoMobile}}</div>
       <div class="mp-navbar__hamburger" :class="isOpened" @click="openHamburger()">
         <span></span>
         <span></span>
