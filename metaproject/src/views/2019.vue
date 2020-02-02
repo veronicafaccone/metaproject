@@ -14,7 +14,7 @@ import HeaderProject from '@/components/HeaderProject.vue'
 import Footer from '@/components/Footer.vue'
 import data from '../assets/data.json'
 export default {
-  name: '2019',
+  name: 'anno2019',
   components: {
     HeaderProject,
     Footer

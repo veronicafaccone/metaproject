@@ -30,6 +30,9 @@ nav {
         .mp-navbar__logo{
             color: $black;
         }
+        .mp-navbar__logo--mobile{
+            color: $black;
+        }
         .mp-navbar__logo--mobile.open{
             color: $white;
         }
