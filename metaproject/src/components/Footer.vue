@@ -6,7 +6,7 @@
       <div class="mp-footer__contact">
         <h4 class="mp-h4--with-line" v-html="this.contact.title"></h4>
         <div class="row">
-          <div v-for="(contact, index) in this.contact.items" :key="index" class="col-xs-6 col-md-4">
+          <div v-for="(contact, index) in this.contact.items" :key="index" class="mp-footer__contact-item col-xs-12 col-sm-4">
               <p><span v-html="contact.name"></span></p>
               <p v-html="contact.position"></p>
               <a :href="'mailto:' + contact.email" v-html="contact.email"></a>

@@ -11,18 +11,29 @@
     color: $white;
 }
 .mp-headerproject__text{
+    height: 50vh;
+    padding-top: 75px;
     align-self: flex-end;
+    @include breakpoint('large'){
+        height: auto;
+        padding-top: 0;
+    }
 }
 .mp-headerproject__img-wrapper{
     align-self: flex-end;
-    margin-bottom: -25vh;
+    @include breakpoint('large'){
+        margin-bottom: -25vh;
+    }
 }
 .mp-headerproject__img{
+    width: 100vw;
     height: 50vh;
-    width: 50vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    @include breakpoint('large'){
+        width: 50vh;
+    }
     &-anno2020{
         background-image: url('../assets/lambrate.jpg');
     }

@@ -8,7 +8,7 @@
         <span></span>
       </div>
       <div class="mp-navbar__overlay" :class="isOpened" >
-        <div class="mp-navbar__link">
+        <div class="mp-navbar__link" @click="closeHamburgerMenu()">
           <router-link v-for="(link, index) in navbar.link.text" :key="index" :to="'/' + navbar.link.href[index]">{{link}}</router-link>
         </div>
       </div>
@@ -78,6 +78,11 @@ export default {
     },
     openHamburger () {
       this.hamburgerOpened = !this.hamburgerOpened
+    },
+    closeHamburgerMenu () {
+      if (this.windowWidth < 767) {
+        this.hamburgerOpened = !this.hamburgerOpened
+      }
     },
     getWindowWidth (event) {
       this.windowWidth = document.documentElement.clientWidth
