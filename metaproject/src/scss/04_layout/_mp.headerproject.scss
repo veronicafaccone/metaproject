@@ -12,7 +12,7 @@
 }
 .mp-headerproject__text{
     height: 50vh;
-    padding-top: 75px;
+    padding-top: calc((25vh + 75px) - 87px);
     align-self: flex-end;
     @include breakpoint('large'){
         height: auto;
