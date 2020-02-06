@@ -1,21 +1,31 @@
 .mp-introproject{
 	height: 100vh;
 	width: 100vw;
-	padding: 0 20px;
 	display: flex;
 	flex-direction: column;
-
 	background: $white;
+}
+.mp-introproject__wrapper-text{
+	height: 60vh;
+	padding: 80px 20px 0 50px;
+	@include breakpoint('medium'){
+		padding: 100px 60px 0;
+	}
+	@include breakpoint('large'){
+		max-width: 45vw;
+	}
+	@include breakpoint('xlarge'){
+		padding: 100px 120px 0;
+	}
+}
+.mp-introproject__wrapper-numbers{
+	height: 40vh;
+	background: $black;
+	padding: 0 20px;
 	@include breakpoint('medium'){
 		padding: 0 60px;
 	}
 	@include breakpoint('xlarge'){
 		padding: 0 120px;
-	}
-}
-.mp-introproject__wrapper-text{
-	height: 60vh;
-	@include breakpoint('medium'){
-		max-width: 45vw;
 	}
 }
