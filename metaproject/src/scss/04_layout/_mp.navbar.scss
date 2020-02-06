@@ -72,8 +72,9 @@ nav {
     position: relative;
     cursor: pointer;
     z-index: 999;
-    background: $red;
-    border-radius: 30px;
+    border-radius: 50%;
+    background: linear-gradient(315deg, #bf0510, #e30513);
+    box-shadow:  -1px -1px 1px #79030a, 1px 1px 1px #ff071a;
     @include breakpoint('medium'){
         display: none;
     }
@@ -99,6 +100,8 @@ nav {
         }
     }
     &.open{
+        background: linear-gradient(315deg, #e30513, #bf0510);
+        box-shadow:  0 0 0 #79030a, 0 0 0 #ff071a;
         span{
             &:nth-child(1){
                 top: 17px;
@@ -153,12 +156,12 @@ nav {
         left: 0;
         transform: unset;
     }
-    
+
 }
 
 .mp-navbar__link a {
     display: block;
-    @include font(50px, $white, 400, 1);    
+    @include font(50px, $white, 400, 1);
     margin-bottom: 30px;
     position: relative;
     @include breakpoint('medium'){
