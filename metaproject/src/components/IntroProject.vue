@@ -4,6 +4,7 @@
       <h4 class="mp-h4--with-line" v-html="this.introProject.title"></h4>
       <p v-html="this.introProject.description"></p>
     </div>
+    <div class="mp-introproject__wrapper-numbers"></div>
   </div>
 </template>
 
