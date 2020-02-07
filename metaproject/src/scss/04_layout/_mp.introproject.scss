@@ -23,14 +23,14 @@
 	height: 75vh;
 	background: $black;
 	color: $white;
-	padding: 20px;
+	padding: 0 20px;
 	align-items: center;
 	@include breakpoint('medium'){
-		padding: 60px;
+		padding: 0 60px;
 	}
 	@include breakpoint('xlarge'){
 		height: 40vh;
-		padding: 120px;
+		padding: 0 120px;
 	}
 	.mp-introproject__item-numbers{
 		text-align: center;

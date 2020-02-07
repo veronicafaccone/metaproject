@@ -2,10 +2,10 @@
   <header class="mp-headerproject">
     <div class="mp-headerproject__colored-band">
       <div class="row mp-headerproject__wrapper">
-        <div class="mp-headerproject__text col-xs-12 col-md-7">
+        <div class="mp-headerproject__text col-xs-12 col-md-8">
           <TextProject :year-text="this.yearText" :title-text="this.titleText"></TextProject>
         </div>
-        <div class="mp-headerproject__img-wrapper col-xs-12 col-md-5">
+        <div class="mp-headerproject__img-wrapper col-xs-12 col-md-4">
           <div class="mp-headerproject__img" :class="'mp-headerproject__img-' + this.nameImg"></div>
         </div>
       </div>
