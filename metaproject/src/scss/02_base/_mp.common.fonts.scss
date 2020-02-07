@@ -6,7 +6,7 @@ h2{
     @include breakpoint('medium'){
         @include font(60px, false, 500, 1.2);
     }
-    @include breakpoint('large'){
+    @include breakpoint('xlarge'){
         @include font(80px, false, 500, 1.3);
     }
 }
