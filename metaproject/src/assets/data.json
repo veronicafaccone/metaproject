@@ -64,7 +64,7 @@
                         "after": "al progetto"
                     }
                 }
-                
+
             ]
         }
     },
@@ -74,6 +74,11 @@
             "year": "coming soon",
             "title": "make lambrate great again",
             "nameImg": "anno2020"
+        },
+        "intro": {
+            "background": "light",
+            "title": "abstract",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui."
         }
     },
     "anno2019": {
