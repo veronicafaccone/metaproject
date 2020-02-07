@@ -88,6 +88,11 @@ export default {
     closeHamburgerMenu () {
       if (this.windowWidth < 767) {
         this.hamburgerOpened = !this.hamburgerOpened
+        if (this.hamburgerOpened) {
+          document.querySelector('html').style = 'overflow: hidden'
+        } else {
+          document.querySelector('html').style = 'overflow: auto'
+        }
       }
     },
     getWindowWidth (event) {

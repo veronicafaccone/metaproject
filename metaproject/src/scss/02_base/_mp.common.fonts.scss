@@ -1,10 +1,13 @@
 h2{
     @include font(30px, false, 500, 1.1);
-    @include breakpoint('medium'){
-        @include font(45px, false, 500, 1.2);
+    @include breakpoint(small){
+        @include font(50px, false, 500, 1.1);
     }
-    @include breakpoint('large'){
-        @include font(60px, false, 500, 1.3);
+    @include breakpoint('medium'){
+        @include font(60px, false, 500, 1.2);
+    }
+    @include breakpoint('xlarge'){
+        @include font(80px, false, 500, 1.3);
     }
 }
 h3{

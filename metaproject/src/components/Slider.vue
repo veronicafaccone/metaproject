@@ -4,11 +4,11 @@
       <div class="mp-slider row">
          <div class="mp-slider__img col-xs-12 col-md-6 col-lg-5" :class="'mp-slider__img' + index"></div>
          <div class="mp-slider__text col-xs-12 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-6">
-          <TextProject :year-text="slide.year" :title-text="slide.title" :paragraphs-text="slide.paragraphs" :cta="slide.cta"></TextProject>
-          <p class="mp-slider__pagination"><span>{{index + 1}}</span>/{{swiperSlides.length}}</p>
+           <TextProject :year-text="slide.year" :title-text="slide.title" :paragraphs-text="slide.paragraphs" :cta="slide.cta"></TextProject>
          </div>
       </div>
     </swiper-slide>
+    <div class="swiper-pagination" slot="pagination"></div>
     <div class="swiper-button-prev" slot="button-prev"></div>
     <div class="swiper-button-next" slot="button-next"></div>
   </swiper>
@@ -39,6 +39,9 @@ export default {
         autoplay: {
           delay: 3000,
           disableOnInteraction: false
+        },
+        pagination: {
+          el: '.swiper-pagination'
         }
       },
       swiperSlides: this.slides

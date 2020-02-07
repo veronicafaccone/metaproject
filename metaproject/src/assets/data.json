@@ -64,7 +64,7 @@
                         "after": "al progetto"
                     }
                 }
-                
+
             ]
         }
     },
@@ -75,10 +75,35 @@
             "title": "make lambrate great again",
             "nameImg": "anno2020"
         },
+<<<<<<< HEAD
         "intro":{
             "background": "light",
             "title": "abstract",
             "description": "Sed pellentesque dui maximus turpis tempor, quis rutrum massa ultricies. Etiam eget sodales risus. Nullam volutpat luctus porta. Sed ultricies tempus velit, ullamcorper sollicitudin dolor scelerisque sit amet. Pellentesque sagittis suscipit erat et pharetra. Nunc nec velit a odio commodo tincidunt eu eu odio. Cras et euismod ante, at vestibulum risus. Aenean vehicula velit quis lobortis tristique. Praesent nec ante nisl."
+=======
+        "intro": {
+            "background": "light",
+            "title": "abstract",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "numbers": [
+                {
+                    "number": "12",
+                    "item": "professori"
+                },
+                {
+                    "number": "46",
+                    "item": "studenti"
+                },
+                {
+                    "number": "6",
+                    "item": "progetti"
+                },
+                {
+                    "number": "6",
+                    "item": "giorni di eventi"
+                }
+            ]
+>>>>>>> 191ce3eaf462de8ace2d71134076d7e0c4a5189e
         }
     },
     "anno2019": {
@@ -87,6 +112,29 @@
             "year": "2019",
             "title": "Type & Wine",
             "nameImg": "anno2019"
+        },
+        "intro": {
+            "background": "light",
+            "title": "abstract",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "numbers": [
+                {
+                    "number": "12",
+                    "item": "professori"
+                },
+                {
+                    "number": "46",
+                    "item": "studenti"
+                },
+                {
+                    "number": "6",
+                    "item": "progetti"
+                },
+                {
+                    "number": "6",
+                    "item": "giorni di eventi"
+                }
+            ]
         }
     },
     "anno2018": {
@@ -95,6 +143,29 @@
             "year": "2018",
             "title": "andrea in the retail next world",
             "nameImg": "anno2018"
+        },
+        "intro": {
+            "background": "light",
+            "title": "abstract",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "numbers": [
+                {
+                    "number": "12",
+                    "item": "professori"
+                },
+                {
+                    "number": "46",
+                    "item": "studenti"
+                },
+                {
+                    "number": "6",
+                    "item": "progetti"
+                },
+                {
+                    "number": "6",
+                    "item": "giorni di eventi"
+                }
+            ]
         }
     },
     "anno2017": {
@@ -103,6 +174,29 @@
             "year": "2018",
             "title": "andrea in the retail next world",
             "nameImg": "anno2017"
+        },
+        "intro": {
+            "background": "light",
+            "title": "abstract",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "numbers": [
+                {
+                    "number": "12",
+                    "item": "professori"
+                },
+                {
+                    "number": "46",
+                    "item": "studenti"
+                },
+                {
+                    "number": "6",
+                    "item": "progetti"
+                },
+                {
+                    "number": "6",
+                    "item": "giorni di eventi"
+                }
+            ]
         }
     },
     "footer": {
@@ -125,6 +219,6 @@
                 }
             ]
         },
-        "copyright": "☺︎ Cookie Policy - Privacy Policy/// © 2020 Scuola Mohole via ventura 5, milano (MI), Italia CAP 20134 P.IVA 05649200960"
+        "copyright": "☺︎︎ Cookie Policy - Privacy Policy/// © 2020 Scuola Mohole via ventura 5, milano (MI), Italia CAP 20134 P.IVA 05649200960"
     }
 }

@@ -4,7 +4,12 @@
       <h4 class="mp-h4--with-line" v-html="this.introProject.title"></h4>
       <p v-html="this.introProject.description"></p>
     </div>
-    <div class="mp-introproject__wrapper-numbers"></div>
+    <div class="mp-introproject__wrapper-numbers row">
+      <div class="mp-introproject__item-numbers col-xs-12 col-sm-6 col-md-3" v-for="(item, index) in this.introProject.numbers" :key="index">
+        <h2 v-html="item.number"></h2>
+        <p v-html="item.item"></p>
+      </div>
+    </div>
   </div>
 </template>
 
