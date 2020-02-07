@@ -6,12 +6,13 @@
 	background: $white;
 }
 .mp-introproject__wrapper-text{
-	height: 60vh;
+	height: 50vh;
 	padding: 80px 20px 0 50px;
 	@include breakpoint('medium'){
 		padding: 100px 60px 0;
 	}
 	@include breakpoint('large'){
+		height: 60vh;
 		max-width: 45vw;
 	}
 	@include breakpoint('xlarge'){
@@ -19,13 +20,19 @@
 	}
 }
 .mp-introproject__wrapper-numbers{
-	height: 40vh;
+	height: 50vh;
 	background: $black;
-	padding: 0 20px;
+	color: $white;
+	padding: 20px;
+	align-items: center;
 	@include breakpoint('medium'){
-		padding: 0 60px;
+		padding: 60px;
 	}
 	@include breakpoint('xlarge'){
-		padding: 0 120px;
+		height: 40vh;
+		padding: 120px;
+	}
+	.mp-introproject__item-numbers{
+		text-align: center;
 	}
 }
