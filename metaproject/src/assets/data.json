@@ -105,6 +105,29 @@
             "year": "2019",
             "title": "Type & Wine",
             "nameImg": "anno2019"
+        },
+        "intro": {
+            "background": "light",
+            "title": "abstract",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "numbers": [
+                {
+                    "number": "12",
+                    "item": "professori"
+                },
+                {
+                    "number": "46",
+                    "item": "studenti"
+                },
+                {
+                    "number": "6",
+                    "item": "progetti"
+                },
+                {
+                    "number": "6",
+                    "item": "giorni di eventi"
+                }
+            ]
         }
     },
     "anno2018": {
@@ -113,6 +136,29 @@
             "year": "2018",
             "title": "andrea in the retail next world",
             "nameImg": "anno2018"
+        },
+        "intro": {
+            "background": "light",
+            "title": "abstract",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "numbers": [
+                {
+                    "number": "12",
+                    "item": "professori"
+                },
+                {
+                    "number": "46",
+                    "item": "studenti"
+                },
+                {
+                    "number": "6",
+                    "item": "progetti"
+                },
+                {
+                    "number": "6",
+                    "item": "giorni di eventi"
+                }
+            ]
         }
     },
     "anno2017": {
@@ -121,6 +167,29 @@
             "year": "2018",
             "title": "andrea in the retail next world",
             "nameImg": "anno2017"
+        },
+        "intro": {
+            "background": "light",
+            "title": "abstract",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "numbers": [
+                {
+                    "number": "12",
+                    "item": "professori"
+                },
+                {
+                    "number": "46",
+                    "item": "studenti"
+                },
+                {
+                    "number": "6",
+                    "item": "progetti"
+                },
+                {
+                    "number": "6",
+                    "item": "giorni di eventi"
+                }
+            ]
         }
     },
     "footer": {
