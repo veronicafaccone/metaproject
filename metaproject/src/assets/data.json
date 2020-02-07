@@ -78,7 +78,25 @@
         "intro": {
             "background": "light",
             "title": "abstract",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui."
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "numbers": [
+                {
+                    "number": "12",
+                    "item": "professori"
+                },
+                {
+                    "number": "46",
+                    "item": "studenti"
+                },
+                {
+                    "number": "6",
+                    "item": "progetti"
+                },
+                {
+                    "number": "6",
+                    "item": "giorni di eventi"
+                }
+            ]
         }
     },
     "anno2019": {
@@ -125,6 +143,6 @@
                 }
             ]
         },
-        "copyright": "☺︎ Cookie Policy - Privacy Policy/// © 2020 Scuola Mohole via ventura 5, milano (MI), Italia CAP 20134 P.IVA 05649200960"
+        "copyright": "☺︎︎ Cookie Policy - Privacy Policy/// © 2020 Scuola Mohole via ventura 5, milano (MI), Italia CAP 20134 P.IVA 05649200960"
     }
 }
