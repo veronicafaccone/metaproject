@@ -50,6 +50,7 @@ export default {
       var classes = []
       if (this.hamburgerOpened) {
         classes.push('open')
+      } else if (this.hamburgerOpened === 'false') {
       }
 
       return classes
@@ -78,6 +79,11 @@ export default {
     },
     openHamburger () {
       this.hamburgerOpened = !this.hamburgerOpened
+      if (this.hamburgerOpened) {
+        document.querySelector('html').style = 'overflow: hidden'
+      } else {
+        document.querySelector('html').style = 'overflow: auto'
+      }
     },
     closeHamburgerMenu () {
       if (this.windowWidth < 767) {
