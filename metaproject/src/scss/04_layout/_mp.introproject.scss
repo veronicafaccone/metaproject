@@ -6,7 +6,7 @@
 	background: $white;
 }
 .mp-introproject__wrapper-text{
-	height: 50vh;
+	height: 25vh;
 	padding: 80px 20px 0 50px;
 	@include breakpoint('medium'){
 		padding: 100px 60px 0;
@@ -20,7 +20,7 @@
 	}
 }
 .mp-introproject__wrapper-numbers{
-	height: 50vh;
+	height: 75vh;
 	background: $black;
 	color: $white;
 	padding: 20px;
