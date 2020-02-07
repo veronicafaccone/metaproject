@@ -75,12 +75,6 @@
             "title": "make lambrate great again",
             "nameImg": "anno2020"
         },
-<<<<<<< HEAD
-        "intro":{
-            "background": "light",
-            "title": "abstract",
-            "description": "Sed pellentesque dui maximus turpis tempor, quis rutrum massa ultricies. Etiam eget sodales risus. Nullam volutpat luctus porta. Sed ultricies tempus velit, ullamcorper sollicitudin dolor scelerisque sit amet. Pellentesque sagittis suscipit erat et pharetra. Nunc nec velit a odio commodo tincidunt eu eu odio. Cras et euismod ante, at vestibulum risus. Aenean vehicula velit quis lobortis tristique. Praesent nec ante nisl."
-=======
         "intro": {
             "background": "light",
             "title": "abstract",
@@ -103,7 +97,6 @@
                     "item": "giorni di eventi"
                 }
             ]
->>>>>>> 191ce3eaf462de8ace2d71134076d7e0c4a5189e
         }
     },
     "anno2019": {
