@@ -1,0 +1,53 @@
+.mp-sliderproject{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+    background: $white;
+    .swiper-container{
+        height: 60vh;
+        padding: 20px;
+        @include breakpoint('large'){
+            height: 75vh;
+            padding: 20px 60px;
+        }
+        @include breakpoint('xlarge'){
+            padding: 20px 120px;
+        }
+    }
+    .swiper-slide{
+        height: 100%;
+        width: 60% !important;
+        margin-right: 20px; 
+        @include breakpoint('medium'){
+            width: 45% !important;
+        }   
+        @include breakpoint('large'){
+            width: 35% !important;
+            margin-right: 50px;
+        }
+        @include breakpoint('xlarge'){
+            width: 25% !important;
+        }
+    }
+}
+.mp-sliderproject__wrapper-text{
+	height: 40vh;
+	padding: 80px 20px 0 50px;
+	@include breakpoint('medium'){
+		padding: 100px 60px 0;
+	}
+	@include breakpoint('large'){
+		height: 25vh;
+        max-width: 60vw;
+        padding: 100px 60px 0 45vw;
+	}
+	@include breakpoint('xlarge'){
+		padding: 100px 120px 0 45vw;
+	}
+}
+.mp-sliderproject__img{
+    height: 100%;
+    width: 100%;
+    background: $verdone;
+}

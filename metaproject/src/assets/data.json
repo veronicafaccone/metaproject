@@ -97,6 +97,18 @@
                     "item": "giorni di eventi"
                 }
             ]
+        },
+        "sliderProject": {
+            "background": "light",
+            "title": "obiettivo progettuale",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "slides": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
         }
     },
     "anno2019": {
@@ -127,6 +139,18 @@
                     "number": "6",
                     "item": "giorni di eventi"
                 }
+            ]
+        },
+        "sliderProject": {
+            "background": "light",
+            "title": "obiettivo progettuale",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "slides": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
             ]
         }
     },
@@ -159,6 +183,18 @@
                     "item": "giorni di eventi"
                 }
             ]
+        },
+        "sliderProject": {
+            "background": "light",
+            "title": "obiettivo progettuale",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "slides": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
         }
     },
     "anno2017": {
@@ -189,6 +225,18 @@
                     "number": "6",
                     "item": "giorni di eventi"
                 }
+            ]
+        },
+        "sliderProject": {
+            "background": "light",
+            "title": "obiettivo progettuale",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "slides": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
             ]
         }
     },
