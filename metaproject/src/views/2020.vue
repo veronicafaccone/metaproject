@@ -9,6 +9,9 @@
         <SliderProject :background="sliderProject.background" :slider-project="sliderProject"></SliderProject>
       </section>
       <section>
+        <Partners :background="partners.background" :partners="partners"></Partners>
+      </section>
+      <section>
         <Footer :background="footer.background" :title-text="footer.title" :subtitle-text="footer.subtitle" :contact="footer.contact" :copyright="footer.copyright"></Footer>
       </section>
     </main>
@@ -19,6 +22,7 @@
 import HeaderProject from '@/components/HeaderProject.vue'
 import IntroProject from '@/components/IntroProject.vue'
 import SliderProject from '@/components/SliderProject.vue'
+import Partners from '@/components/Partners.vue'
 import Footer from '@/components/Footer.vue'
 import data from '../assets/data.json'
 export default {
@@ -27,6 +31,7 @@ export default {
     HeaderProject,
     IntroProject,
     SliderProject,
+    Partners,
     Footer
   },
   computed: {
@@ -38,6 +43,9 @@ export default {
     },
     sliderProject () {
       return data.anno2020.sliderProject
+    },
+    partners () {
+      return data.anno2020.partners
     },
     footer () {
       return data.footer
