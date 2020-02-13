@@ -1,13 +1,13 @@
 <template>
   <div class="mp-sliderproject">
-    <div class="mp-sliderproject__wrapper-text">
-      <h4 class="mp-h4--with-line" v-html="this.sliderProject.title"></h4>
-      <p v-html="this.sliderProject.description"></p>
+    <div class="mp-sliderproject__wrapper-text row">
+      <div class="col-xs-12 col-md-7 col-md-offset-5 col-lg-6 col-lg-offset-6">
+        <h4 class="mp-h4--with-line" v-html="this.sliderProject.title"></h4>
+        <p v-html="this.sliderProject.description"></p>
+      </div>
     </div>
     <swiper :options="swiperOption">
-      <swiper-slide v-for="(slide, index) in swiperSlides" :key="index">
-        <div class="mp-sliderproject__img"></div>
-      </swiper-slide>
+      <swiper-slide v-for="(slide, index) in swiperSlides" :key="index" class="mp-sliderproject__img"></swiper-slide>
   </swiper>
   </div>
 </template>
