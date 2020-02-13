@@ -5,9 +5,9 @@
     box-sizing: border-box;
     padding: 85px 20px 20px 50px;
     @include breakpoint('medium'){
-        padding: 100px 60px 30px 60px;
+        padding: 80px 60px 30px 60px;
     }
-    @include breakpoint('large'){
+    @include breakpoint('xlarge'){
         padding: 100px 120px 60px;
     }
 }
@@ -15,19 +15,24 @@
     color: $white;
     margin-bottom: 20px;
 }
-.mp-partners__logo{
-    width: calc(100% - 50px);
-    height: 90px;
-    background: #BBBBBB;
-    margin-right: 50px;
-    margin-bottom: 30px;
-    @include breakpoint('medium'){
-        height: 80px;
-        margin-bottom: 40px;
-    }
+.wd-partners__wrapper-logos{
+    height: 100%;
+}
+.mp-partners__logo-box{
+    width: 100%;
+    height: calc(100%/9);
+    margin-bottom: calc((100%/9)/2);
     @include breakpoint('large'){
-        height: 100px;
-        margin-left: 50px;
-        margin-bottom: 100px;
+        width: 100%;
+        height: calc(100%/5);
+        margin-bottom: calc((100%/5)/2);
+    }
+}
+.mp-partners__logo-img{
+    width: calc(100% - 45px);
+    height: 100%;
+    background: #BBBBBB;
+    @include breakpoint('medium'){
+        width: 100%;
     }
 }
