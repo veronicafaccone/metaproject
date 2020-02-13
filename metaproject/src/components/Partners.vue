@@ -1,16 +1,12 @@
 <template>
-  <div class="mp-partners">
-    <div class="row">
-      <div class="col-xs-12 col-md-3 mp-partners__wrapper-text">
-        <h4 class="mp-h4--with-line" v-html="this.partners.title"></h4>
-        <p v-html="this.partners.description"></p>
-      </div>
-      <div class="col-xs-12 col-md-9">
-        <div class="row">
-          <div class="col-xs-6 col-md-4" v-for="(item, index) in this.partners.partners" :key="index">
-            <div class="mp-partners__logo"></div>
-          </div>
-        </div>
+  <div class="mp-partners row">
+    <div class="col-xs-12 col-md-3 mp-partners__wrapper-text">
+      <h4 class="mp-h4--with-line" v-html="this.partners.title"></h4>
+      <p v-html="this.partners.description"></p>
+    </div>
+    <div class="col-xs-12 col-md-9 row wd-partners__wrapper-logos">
+      <div class="col-xs-6 col-md-3 col-md-offset-1 mp-partners__logo-box" v-for="(item, index) in this.partners.partners" :key="index">
+        <div class="mp-partners__logo-img"></div>
       </div>
     </div>
   </div>
