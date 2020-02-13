@@ -5,49 +5,58 @@
 	flex-direction: column;
     background: $white;
     .swiper-container{
-        height: 60vh;
+        height: 50vh;
         padding: 20px;
+		@include breakpoint('medium'){
+			height: 40vh;
+		}
         @include breakpoint('large'){
-            height: 75vh;
             padding: 20px 60px;
         }
         @include breakpoint('xlarge'){
+			height: 40vh;
             padding: 20px 120px;
         }
     }
     .swiper-slide{
-        height: 100%;
+		height: 0;
         width: 60% !important;
-        margin-right: 20px; 
+		padding-bottom: 65%;
+        margin-right: 20px;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
         @include breakpoint('medium'){
             width: 45% !important;
-        }   
+			padding-bottom: 50%;
+        }
         @include breakpoint('large'){
             width: 35% !important;
             margin-right: 50px;
+			padding-bottom: 40%;
         }
         @include breakpoint('xlarge'){
             width: 25% !important;
+			padding-bottom: 30%;
         }
+		&:hover{
+			transform: scale(1.1);
+		}
     }
 }
 .mp-sliderproject__wrapper-text{
-	height: 40vh;
+	height: 50vh;
 	padding: 80px 20px 0 50px;
 	@include breakpoint('medium'){
 		padding: 100px 60px 0;
+		height: 50vh;
 	}
 	@include breakpoint('large'){
-		height: 25vh;
-        max-width: 60vw;
-        padding: 100px 60px 0 45vw;
+        padding: 100px 60px 0 0;
 	}
 	@include breakpoint('xlarge'){
-		padding: 100px 120px 0 45vw;
+		padding: 100px 120px 0 0;
 	}
 }
 .mp-sliderproject__img{
-    height: 100%;
-    width: 100%;
     background: $verdone;
 }

@@ -7,16 +7,16 @@
 }
 .mp-introproject__wrapper-text{
 	height: 25vh;
-	padding: 80px 20px 0 50px;
+	padding: 80px 20px 20px 50px;
 	@include breakpoint('medium'){
-		padding: 100px 0 0 60px;
+		padding: 100px 0 30px 60px;
 	}
 	@include breakpoint('large'){
 		height: 60vh;
 		max-width: 45vw;
 	}
 	@include breakpoint('xlarge'){
-		padding: 100px 0 0 120px;
+		padding: 100px 0 60px 120px;
 	}
 }
 .mp-introproject__wrapper-numbers{
