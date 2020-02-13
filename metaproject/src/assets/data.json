@@ -115,15 +115,12 @@
             "title": "partners",
             "description": "Lorem ipsum dolor sit amet",
             "partners": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9"
+                "tonki",
+                "ugo",
+                "tipografia_snicolo",
+                "printi",
+                "formidabile_lambrate",
+                "vivafm"
             ]
         }
     },

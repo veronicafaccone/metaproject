@@ -6,7 +6,7 @@
     </div>
     <div class="col-xs-12 col-md-9 row wd-partners__wrapper-logos">
       <div class="col-xs-6 col-md-3 col-md-offset-1 mp-partners__logo-box" v-for="(item, index) in this.partners.partners" :key="index">
-        <div class="mp-partners__logo-img"></div>
+        <div class="mp-partners__logo-img" :class="'mp-partners__logo-img--' + item"></div>
       </div>
     </div>
   </div>

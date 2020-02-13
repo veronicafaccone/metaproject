@@ -31,8 +31,30 @@
 .mp-partners__logo-img{
     width: calc(100% - 45px);
     height: 100%;
-    background: #BBBBBB;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
     @include breakpoint('medium'){
+        height: 40%;
         width: 100%;
+        background-position: right;
+    }
+    &--tonki{
+        background-image: url('../assets/loghi/tonki.png');
+    }
+    &--ugo{
+        background-image: url('../assets/loghi/ugo.png');
+    }
+    &--tipografia_snicolo{
+        background-image: url('../assets/loghi/tipografia_snicolo.png');
+    }
+    &--printi{
+        background-image: url('../assets/loghi/printi.png');
+    }
+    &--formidabile_lambrate{
+        background-image: url('../assets/loghi/formidabile_lambrate.png');
+    }
+    &--vivafm{
+        background-image: url('../assets/loghi/vivafm.png');
     }
 }
