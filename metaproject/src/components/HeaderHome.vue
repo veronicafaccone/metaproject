@@ -1,8 +1,10 @@
 <template>
   <header class="mp-headerhome__bg">
-     <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
-        <source src="../assets/welcome_video.mp4" type="video/mp4">
-    </video>
+    <div class="mp-headerhome__wrapper-video">
+      <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+          <source src="../assets/welcome_video.mp4" type="video/mp4">
+      </video>
+    </div>
     <IconMouseScroll></IconMouseScroll>
   </header>
 </template>
