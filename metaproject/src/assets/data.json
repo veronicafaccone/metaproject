@@ -165,6 +165,19 @@
                 "4",
                 "5"
             ]
+        },
+        "partners": {
+            "background": "dark",
+            "title": "partners",
+            "description": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+            "partners": [
+                "tonki",
+                "ugo",
+                "tipografia_snicolo",
+                "printi",
+                "formidabile_lambrate",
+                "vivafm"
+            ]
         }
     },
     "anno2018": {
@@ -208,6 +221,19 @@
                 "4",
                 "5"
             ]
+        },
+        "partners": {
+            "background": "dark",
+            "title": "partners",
+            "description": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+            "partners": [
+                "tonki",
+                "ugo",
+                "tipografia_snicolo",
+                "printi",
+                "formidabile_lambrate",
+                "vivafm"
+            ]
         }
     },
     "anno2017": {
@@ -250,6 +276,19 @@
                 "3",
                 "4",
                 "5"
+            ]
+        },
+        "partners": {
+            "background": "dark",
+            "title": "partners",
+            "description": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+            "partners": [
+                "tonki",
+                "ugo",
+                "tipografia_snicolo",
+                "printi",
+                "formidabile_lambrate",
+                "vivafm"
             ]
         }
     },
