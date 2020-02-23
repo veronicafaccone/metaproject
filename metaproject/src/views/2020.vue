@@ -11,7 +11,7 @@
       <section>
         <Partners :background="partners.background" :partners="partners"></Partners>
       </section>
-      <section>
+      <section class="mp-section--200">
         <FacultyStudents :background="facultystudents.background" :faculty="facultystudents.faculty" :students="facultystudents.students"></FacultyStudents>
       </section>
       <section>

@@ -1,10 +1,11 @@
 .mp-facultystudents{
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     background: $white;
     box-sizing: border-box;
     padding: 85px 20px 20px 50px;
     @include breakpoint('medium'){
+        height: 100vh;
         padding: 80px 60px 30px 60px;
     }
     @include breakpoint('xlarge'){

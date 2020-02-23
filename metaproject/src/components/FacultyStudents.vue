@@ -9,11 +9,11 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-md-5 col-md-offset-2 mp-facultystudents__wrapper-text">
+    <div class="col-xs-12 col-md-6 col-md-offset-1 col-lg-5 col-lg-offest-2 mp-facultystudents__wrapper-text">
       <h4 class="mp-h4--with-line" v-html="this.students.title"></h4>
       <p v-html="this.students.description"></p>
       <div class="row mp-facultystudents--students">
-        <div class="col-xs-4 mp-facultystudents--items" v-for="(item, index) in this.students.names"  :key="index">
+        <div class="col-xs-6 col-md-4 mp-facultystudents--items" v-for="(item, index) in this.students.names"  :key="index">
           <p>{{item}}</p>
         </div>
       </div>

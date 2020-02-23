@@ -274,6 +274,102 @@
                 "formidabile_lambrate",
                 "vivafm"
             ]
+        },
+        "facultystudents": {
+            "background": "light",
+            "faculty": {
+                "title": "faculty",
+                "description": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit",
+                "names": [
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    }
+                    
+                ]
+            },
+            "students": {
+                "title": "students",
+                "description": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit",
+                "names": [
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile"    
+                ]
+            }
         }
     },
     "anno2018": {
@@ -330,6 +426,102 @@
                 "formidabile_lambrate",
                 "vivafm"
             ]
+        },
+        "facultystudents": {
+            "background": "light",
+            "faculty": {
+                "title": "faculty",
+                "description": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit",
+                "names": [
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    }
+                    
+                ]
+            },
+            "students": {
+                "title": "students",
+                "description": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit",
+                "names": [
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile"    
+                ]
+            }
         }
     },
     "anno2017": {
@@ -386,6 +578,102 @@
                 "formidabile_lambrate",
                 "vivafm"
             ]
+        },
+        "facultystudents": {
+            "background": "light",
+            "faculty": {
+                "title": "faculty",
+                "description": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit",
+                "names": [
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    },
+                    {
+                        "name": "Christian Nadile",
+                        "profession": "Motion Designer"
+                    }
+                    
+                ]
+            },
+            "students": {
+                "title": "students",
+                "description": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit",
+                "names": [
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile",
+                    "Christian Nadile"    
+                ]
+            }
         }
     },
     "footer": {

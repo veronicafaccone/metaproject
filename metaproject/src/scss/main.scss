@@ -12,5 +12,11 @@ main{
         margin: auto;
         display: flex;
         align-items: center;
+        &.mp-section--200{
+            height: 200vh;
+            @include breakpoint('medium'){
+                height: 100vh;
+            }
+        }
     }
 }
