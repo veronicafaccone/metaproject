@@ -16,15 +16,15 @@
             "title": "metaproject",
             "subtitle": "didattica e innovazione",
             "paragraphs": [
-                "<span>Il nostro scopo?</span> Favorire un dialogo educativo che sia tale:<br />un confronto di voci, una coreografia di menti, mai un monologo.",
-                "Dopo tutto, i migliori insegnanti sono quelli che ti mostrano dove guardare ma non ti dicono cosa vedere.<br /><span>Insegnare è imparare due volte.</span>"
+                "Un laboratorio di ricerca e sperimentazione che parte da un’idea e propone un <span>mondo migliore</span>.",
+                "Giovani progettisti si confrontano e generano <span>idee innovative</span>: nulla è lasciato al caso, <span>tutto è mosso dal sogno e dalla creatività</span>."
             ]
         },
         "currentYear": {
             "background": "dark",
             "year": "coming soon",
             "title": "make lambrate great again",
-            "paragraphs": "Si va narrando che Lambrate stia rinascendo dalle sue ceneri.",
+            "paragraphs": "La magia di un paese nella città, la poesia dell’abbandono e il desiderio di rinascere dalle proprie ceneri.",
             "cta": {
                 "link": "2020",
                 "before": "vai",
@@ -47,7 +47,7 @@
                 {
                     "year": "2018",
                     "title": "Andrea in the retail next world",
-                    "paragraphs": "Riscopriamo il piacere di toccare ciò che stiamo comprando, prima di acquistarlo.",
+                    "paragraphs": "La riscoperta del contatto diretto con ciò che si acquista parte online e si propaga nel mondo reale.",
                     "cta": {
                         "link": "2018",
                         "before": "vai",
@@ -78,7 +78,7 @@
         "intro": {
             "background": "light",
             "title": "abstract",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "description": "Si va narrando che Lambrate stia rinascendo dalle proprie ceneri.<br>Nelle vie del piccolo borgo si intrecciano ricordi, sogni e rimpianti.<br>La Lambrate che fu sta per incontrare la Lambrate del futuro.<br>Come? Beh, ci siamo noi!",
             "numbers": [
                 {
                     "number": "12",
@@ -101,7 +101,7 @@
         "sliderProject": {
             "background": "light",
             "title": "obiettivo progettuale",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "description": "Lambrate è un luogo che racconta ciò che è stato, dei suoi anni più belli e dell’unione fra le persone che lo abitano.<br>Un quartiere che sogna di rinascere e che, ne siamo certi, ci riuscirà.<br>A volte basta sognare un posto migliore, e noi di sogni ne abbiamo da vendere (anzi, da regalare).<br>Vogliamo che gli artigiani incontrino gli artisti, che le persone si mettano in gioco per far rinascere il senso di appartenenza e la voglia di raccontare un luogo così magico.",
             "slides": [
                 "1",
                 "2",
@@ -255,11 +255,20 @@
             "title": "obiettivo progettuale",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
             "slides": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5"
+                "type-and-wine_00",
+                "type-and-wine_01",
+                "type-and-wine_02",
+                "type-and-wine_03",
+                "type-and-wine_04",
+                "type-and-wine_05",
+                "type-and-wine_06",
+                "type-and-wine_07",
+                "type-and-wine_08",
+                "type-and-wine_09",
+                "type-and-wine_10",
+                "type-and-wine_11",
+                "type-and-wine_12",
+                "type-and-wine_13"
             ]
         },
         "partners": {
@@ -382,7 +391,7 @@
         "intro": {
             "background": "light",
             "title": "abstract",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "description": "Tutti si muovono verso l’ottimizzazione di tempo e risorse.<br>Siamo convinti che lo shopping online sia la soluzione migliore.<br>Sarà davvero così?",
             "numbers": [
                 {
                     "number": "12",
@@ -405,7 +414,7 @@
         "sliderProject": {
             "background": "light",
             "title": "obiettivo progettuale",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "description": "Un’app per creare un legame fra utente e negozio, per ridefinire il concetto di shopping.<br>Vogliamo modificare le abitudini di acquisto, fornire un nuovo valore al processo. Focalizzare l’attenzione sul piacere del contatto diretto, sui dettagli.<br><br>Vogliamo che le persone abbiano la possibilità di scegliere i capi online, per poi terminare l’acquisto in un negozio fisico.",
             "slides": [
                 "1",
                 "2",

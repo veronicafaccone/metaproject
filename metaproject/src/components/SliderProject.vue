@@ -7,7 +7,7 @@
       </div>
     </div>
     <swiper :options="swiperOption">
-      <swiper-slide v-for="(slide, index) in swiperSlides" :key="index" class="mp-sliderproject__img"></swiper-slide>
+      <swiper-slide v-for="(slide, index) in swiperSlides" :key="index" class="mp-sliderproject__img" :class="'mp-sliderproject__img__' + slide"></swiper-slide>
   </swiper>
   </div>
 </template>

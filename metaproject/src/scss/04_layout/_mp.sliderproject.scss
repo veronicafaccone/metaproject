@@ -58,5 +58,48 @@
 	}
 }
 .mp-sliderproject__img{
-    background: $verdone;
+	background-size: contain;
+	background-repeat: no-repeat;
+	&__type-and-wine_00{
+		background-image: url('../assets/type_and_wine/type_and_wine_00.jpg');
+	}
+	&__type-and-wine_01{
+		background-image: url('../assets/type_and_wine/type_and_wine_01.jpg');
+	}
+	&__type-and-wine_02{
+		background-image: url('../assets/type_and_wine/type_and_wine_02.jpg');
+	}
+	&__type-and-wine_03{
+		background-image: url('../assets/type_and_wine/type_and_wine_03.jpg');
+	}
+	&__type-and-wine_04{
+		background-image: url('../assets/type_and_wine/type_and_wine_04.jpg');
+	}
+	&__type-and-wine_05{
+		background-image: url('../assets/type_and_wine/type_and_wine_05.jpg');
+	}
+	&__type-and-wine_06{
+		background-image: url('../assets/type_and_wine/type_and_wine_06.jpg');
+	}
+	&__type-and-wine_07{
+		background-image: url('../assets/type_and_wine/type_and_wine_07.jpg');
+	}
+	&__type-and-wine_08{
+		background-image: url('../assets/type_and_wine/type_and_wine_08.jpg');
+	}
+	&__type-and-wine_09{
+		background-image: url('../assets/type_and_wine/type_and_wine_09.jpg');
+	}
+	&__type-and-wine_10{
+		background-image: url('../assets/type_and_wine/type_and_wine_10.jpg');
+	}
+	&__type-and-wine_11{
+		background-image: url('../assets/type_and_wine/type_and_wine_11.jpg');
+	}
+	&__type-and-wine_12{
+		background-image: url('../assets/type_and_wine/type_and_wine_12.jpg');
+	}
+	&__type-and-wine_13{
+		background-image: url('../assets/type_and_wine/type_and_wine_12.jpg');
+	}
 }
