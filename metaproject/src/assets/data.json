@@ -113,7 +113,7 @@
         "partners": {
             "background": "dark",
             "title": "partners",
-            "description": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+            "description": "Viviamo e sognamo sempre più in grande grazie a chi ci sostiene e crede in noi ogni giorno un po’ di più. Grazie a chi, con pazienza e tenacia, decide di partecipare ai nostri eventi e organizzarli con noi.",
             "partners": [
                 "tonki",
                 "ugo",
@@ -230,7 +230,7 @@
         "intro": {
             "background": "light",
             "title": "abstract",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "description": "La tradizione può diventare qualcosa di nuovo pur mantenendo la propria essenza?A volte basta iniziare una storia con un semplice \"Mi ricordo che...\" anziché del solito \"C'è un volta...\".",
             "numbers": [
                 {
                     "number": "12",
@@ -253,7 +253,7 @@
         "sliderProject": {
             "background": "light",
             "title": "obiettivo progettuale",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat sapien eu cursus pellentesque. In in ultricies nibh. Phasellus tristique pretium libero, in sagittis nisi suscipit a. Quisque et commodo lectus, quis semper tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam in dictum dui.",
+            "description": "Tutto cambia costantemente, in questo mondo che corre più veloce di noi. Ma sta davvero cambiando così tanto o è solo una nostra convinzione?<br><br>Per stravolgere qualcosa spesso basta comunicarla in maniera differente.<br>Questo è l'obiettivo di Type&Wine: comunicare una tradizione millenaria con parole attuali, quindi avvicinarla ai giovani rendendola più nuova.",
             "slides": [
                 "type-and-wine_00",
                 "type-and-wine_01",
@@ -274,7 +274,7 @@
         "partners": {
             "background": "dark",
             "title": "partners",
-            "description": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+            "description": "Viviamo e sognamo sempre più in grande grazie a chi ci sostiene e crede in noi ogni giorno un po’ di più. Grazie a chi, con pazienza e tenacia, decide di partecipare ai nostri eventi e organizzarli con noi.",
             "partners": [
                 "tonki",
                 "ugo",
@@ -416,17 +416,15 @@
             "title": "obiettivo progettuale",
             "description": "Un’app per creare un legame fra utente e negozio, per ridefinire il concetto di shopping.<br>Vogliamo modificare le abitudini di acquisto, fornire un nuovo valore al processo. Focalizzare l’attenzione sul piacere del contatto diretto, sui dettagli.<br><br>Vogliamo che le persone abbiano la possibilità di scegliere i capi online, per poi terminare l’acquisto in un negozio fisico.",
             "slides": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5"
+                "andrea_01",
+                "andrea_02",
+                "andrea_03"
             ]
         },
         "partners": {
             "background": "dark",
             "title": "partners",
-            "description": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+            "description": "Viviamo e sognamo sempre più in grande grazie a chi ci sostiene e crede in noi ogni giorno un po’ di più. Grazie a chi, con pazienza e tenacia, decide di partecipare ai nostri eventi e organizzarli con noi.",
             "partners": [
                 "tonki",
                 "ugo",
@@ -578,7 +576,7 @@
         "partners": {
             "background": "dark",
             "title": "partners",
-            "description": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+            "description": "Viviamo e sognamo sempre più in grande grazie a chi ci sostiene e crede in noi ogni giorno un po’ di più. Grazie a chi, con pazienza e tenacia, decide di partecipare ai nostri eventi e organizzarli con noi.",
             "partners": [
                 "tonki",
                 "ugo",

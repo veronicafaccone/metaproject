@@ -19,25 +19,7 @@
         }
     }
     .swiper-slide{
-		height: 0;
-        width: 60% !important;
-		padding-bottom: 65%;
-        margin-right: 20px;
-		cursor: pointer;
 		transition: all .2s ease-in-out;
-        @include breakpoint('medium'){
-            width: 45% !important;
-			padding-bottom: 50%;
-        }
-        @include breakpoint('large'){
-            width: 35% !important;
-            margin-right: 50px;
-			padding-bottom: 40%;
-        }
-        @include breakpoint('xlarge'){
-            width: 25% !important;
-			padding-bottom: 30%;
-        }
 		&:hover{
 			transform: scale(1.1);
 		}
@@ -60,6 +42,7 @@
 .mp-sliderproject__img{
 	background-size: contain;
 	background-repeat: no-repeat;
+	//Type&Wine
 	&__type-and-wine_00{
 		background-image: url('../assets/type_and_wine/type_and_wine_00.jpg');
 	}
@@ -101,5 +84,15 @@
 	}
 	&__type-and-wine_13{
 		background-image: url('../assets/type_and_wine/type_and_wine_12.jpg');
+	}
+	//Andrea in the retail world
+	&__andrea_01{
+		background-image: url('../assets/andrea/andrea_01.jpg');
+	}
+	&__andrea_02{
+		background-image: url('../assets/andrea/andrea_02.jpg');
+	}
+	&__andrea_03{
+		background-image: url('../assets/andrea/andrea_03.jpg');
 	}
 }

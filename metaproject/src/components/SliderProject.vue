@@ -8,7 +8,7 @@
     </div>
     <swiper :options="swiperOption">
       <swiper-slide v-for="(slide, index) in swiperSlides" :key="index" class="mp-sliderproject__img" :class="'mp-sliderproject__img__' + slide"></swiper-slide>
-  </swiper>
+    </swiper>
   </div>
 </template>
 
@@ -26,8 +26,25 @@ export default {
     return {
       bgComponent: this.background,
       swiperOption: {
+        centeredSlides: true,
+        slidesPerView: 3,
+        spaceBetween: 30,
         loop: false,
-        updateOnWindowResize: true
+        updateOnWindowResize: true,
+        breakpoints: {
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 30
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          }
+        }
       },
       swiperSlides: this.sliderProject.slides
     }
