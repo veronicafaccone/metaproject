@@ -73,8 +73,7 @@ nav {
     cursor: pointer;
     z-index: 999;
     border-radius: 50%;
-    background: linear-gradient(315deg, #bf0510, #e30513);
-    box-shadow:  -1px -1px 1px #b4040f, 1px 1px 1px #f40615;
+    background: $red;
     transition: all .1s ease-in-out;
     @include breakpoint('medium'){
         display: none;
@@ -101,8 +100,7 @@ nav {
         }
     }
     &.open{
-        background: linear-gradient(315deg, #e30513, #bf0510);
-        box-shadow: 3px 3px 3px #b4040f, 3px 3px 3px #f40615;
+        background: transparent;
         span{
             &:nth-child(1){
                 top: 22.5px;
