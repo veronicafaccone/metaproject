@@ -4,7 +4,7 @@
       <video loop muted autoplay class="fullscreen-bg__video fullscreen-bg__video--desktop">
           <source src="../assets/video/welcome_video.mp4" type="video/mp4">
       </video>
-      <video loop muted autoplay class="fullscreen-bg__video fullscreen-bg__video--mobile">
+      <video playsinline loop muted autoplay class="fullscreen-bg__video fullscreen-bg__video--mobile">
           <source src="../assets/video/welcome_video_mobile.mp4" type="video/mp4">
       </video>
     </div>
